@@ -10,6 +10,7 @@
     <modules>
         <module>emall-registry</module>
         <module>emall-gateway</module>
+        <module>emall-item</module>
     </modules>
     <packaging>pom</packaging>
 
