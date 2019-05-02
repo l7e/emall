@@ -11,6 +11,7 @@
         <module>emall-registry</module>
         <module>emall-gateway</module>
         <module>emall-item</module>
+        <module>emall-common</module>
     </modules>
     <packaging>pom</packaging>
 
