@@ -39,5 +39,10 @@
             <artifactId>emall-item-interface</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.emall.common</groupId>
+            <artifactId>emall-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>
