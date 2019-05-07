@@ -4,7 +4,7 @@ spring:
   application:
     name: item-service
   datasource:
-    url: jdbc:mysql://192.168.10.10:3306/emall
+    url: jdbc:mysql://192.168.10.10:3306/emall?useUnicode=true&characterEncoding=UTF-8&useSSL=true
     username: homestead
     password: secret
 eureka:
@@ -12,6 +12,6 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
 
-mybatis:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   #打印SQL语句
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   #打印SQL语句
